@@ -8,11 +8,27 @@
 
         <img src="senpai.gif" width="900" height="600">
         <div style="font-size:160%;">
-            <p >Katarenai nemurenai toroimerai</p>
-            <p>Anata no miteru shoutai</p>
-            <p>Daremo yomenai karute</p>
-            <p>Fukashigi shiritai dake</p> 
+            <p id="demo"
+            onclick="document
+                .getElementById('demo')
+                .innerHTML = 'You rock my world'" >Katarenai nemurenai toroimerai</p>
+
+            <p id="double"
+                ondblclick="document
+                .getElementById('double')
+                .style='background-color:tomato;'">Anata no miteru shoutai</p>
+
+            <p id="onmsover"
+                onmouseover="document
+                .getElementById('onmsover')
+                .style.fontSize='60px'">Daremo yomenai karute</p>
+
+            <p id="onmouseout"
+                onmouseout="document
+                .getElementById('onmouseout')
+                .style.color='blue'">Fukashigi shiritai dake</p> 
             <br>
+
             <p>Uso mo genjitsu mo</p>
             <p>Docchi mo shinjitsu datta no hontou yo</p>
             <p>Kyou mo hitorigoto</p>
